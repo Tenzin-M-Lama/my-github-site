@@ -14,12 +14,25 @@
                 background-attachment: fixed;
                 background-size: cover; /* Keeps the background full-screen */
             }
-            h1   { color: #000000; }
+            /* Styles to center your profile picture */
+            .profile-pic {
+                display: block;
+                margin: 20px auto 10px auto; /* Centers the image */
+                width: 150px; /* Sets image width */
+                height: 150px; /* Sets image height */
+                border-radius: 50%; /* Makes the image a perfect circle */
+                border: 3px solid #ffffff; /* Adds a clean white border */
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow drop */
+            }
+            h1   { color: #000000; text-align: center; } /* Also centered your name below the photo */
             h2   { color: #ffffff; border-bottom: 2px solid #ffffff; }
             p    { line-height: 1.6; }
         </style>
     </head>
     <body>
+        <!-- Your profile picture is now at the very top -->
+        <img src="https://github.com" alt="Tenzin Lama Profile Picture" class="profile-pic">
+
         <h1>Hi, I'm Tenzin Lama! </h1>
 
         <h2>About Me</h2>
@@ -37,5 +50,4 @@
             <a href="https://studio.code.org/projects/applab/375aef20-02fc-4faa-8848-02af3e28a1cd" target="_blank">Code.org project</a>
         </p>
     </body>
-</html>
 </html>
